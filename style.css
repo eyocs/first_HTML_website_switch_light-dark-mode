@@ -1,0 +1,21 @@
+:root {
+  --backgroundColor: beige;
+  --textColor: black;
+  --button-bg-color: white;
+  --button-text-color: black;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+}
+
+button {
+  background-color: var(--button-bg-color);
+
+  color: var(--button-text-color);
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
